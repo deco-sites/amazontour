@@ -1,1 +1,27 @@
-{"__resolveType":"site/sections/Footer.tsx","links":[],"bottomLinks":[],"social":[],"subscribe":{}}
+{
+  "__resolveType": "site/sections/Footer.tsx",
+  "links": [],
+  "bottomLinks": [],
+  "social": [
+    {
+      "network": "Instagram",
+      "href": "https://www.instagram.com/gabrield.js/"
+    },
+    {
+      "network": "Linkedin",
+      "href": "https://www.linkedin.com/in/gabrieldev-js/"
+    }
+  ],
+  "subscribe": {
+    "title": "Receba Novidades e Promoções",
+    "description": "Inscreva-se na nossa newsletter e fique por dentro das últimas novidades, promoções exclusivas e dicas de viagem para o Amazonas."
+  },
+  "logo": {
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11664/0b436bb1-d00e-4762-b07d-ff69734aba54"
+  },
+  "madeWith": {
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11664/2d669fba-9f51-4fb4-9f58-92610a4294ff",
+    "href": "https://github.com/Gabriel-hp"
+  },
+  "copyright": "Gabriel DIas"
+}

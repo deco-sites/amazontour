@@ -1,1 +1,16 @@
-{"__resolveType":"site/sections/Header.tsx","navigation":{"links":[],"buttons":[]}}
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "navigation": {
+    "links": [],
+    "buttons": [
+      {
+        "text": "Reservar ",
+        "outline": false,
+        "href": "https://whatsa.me/5592984737304/?t=Ol%C3%A1%20gostaria%20de%20reservar%20uma%20aventura%20pelo%20amazonas!"
+      }
+    ]
+  },
+  "logo": {
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11664/aec38175-07ed-450c-86df-7948f5f81b2c"
+  }
+}

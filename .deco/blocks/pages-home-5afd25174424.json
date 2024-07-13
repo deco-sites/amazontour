@@ -1,42 +1,215 @@
 {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "Header"
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>Experimente a magia da  Amazônia</p>",
+      "cta": [
+        {
+          "href": "https://whatsa.me/5592984737304/?t=Ol%C3%A1%20gostaria%20de%20reservar%20uma%20aventura%20pelo%20amazonas!",
+          "text": "Reservar agora!!",
+          "outline": false
+        }
+      ],
+      "description": "Pacotes de Turismo Exclusivos para Cada Aventura",
+      "placement": "right"
+    },
+    {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "slides": [
+        {
+          "content": {
+            "description": "Aventura na Selva: Explore a selva amazônica em emocionantes excursões. Observação de fauna e flora, trilhas guiadas por especialistas e camping em meio à natureza exuberante são algumas das atividades que proporcionam uma verdadeira imersão na maior floresta tropical do mundo.",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11664/7499aaac-d403-42ed-abc5-5e5f31fa2ea4"
+          }
+        },
+        {
+          "content": {
+            "description": "Roteiro Cultural: Mergulhe na rica cultura amazônica com visitas a comunidades indígenas, onde você pode aprender sobre suas tradições e modo de vida. Participe de festivais locais vibrantes e explore mercados de artesanato, onde cada peça conta uma história única.",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11664/d89c89c6-6342-4a8b-ac25-42a4d0b19580"
+          }
+        },
+        {
+          "content": {
+            "description": "Cruzeiros pelo Rio Amazonas: Navegue pelas águas majestosas do Rio Amazonas em cruzeiros de luxo. Desfrute de confortáveis acomodações a bordo enquanto explora a biodiversidade dos rios e vilarejos ribeirinhos. Passeios de barco oferecem uma perspectiva única da vida ao longo do rio.",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11664/a3267fa5-3be5-46ef-841c-3e6efd379e82"
+          }
+        },
+        {
+          "content": {
+            "description": "Ecoturismo Conecte-se com a natureza em passeios por reservas naturais e participe de projetos de conservação. Interaja com a biodiversidade local, observando espécies únicas e aprendendo sobre os esforços para proteger esse precioso ecossistema.",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11664/4ae7f395-abae-4d41-9ecd-cc1724dafbea"
+          }
+        }
+      ],
+      "title": "Nossos Pacotes de Turismo",
+      "arrows": true,
+      "dots": true,
+      "interval": 15
+    },
+    {
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "title": "Destinos Populares",
+      "description": "Os destinos mais famosos",
+      "posts": [
+        {
+          "tags": [],
+          "title": "Encontro das Águas",
+          "author": "Manaus - AM",
+          "excerpt": "Um dos fenômenos naturais mais incríveis de se ver é o Encontro das Águas dos rios Negro e Solimões, que correm lado a lado, mas não se misturam. Além de uma experiência interessante, você ainda ganha uma aula prática de química no meio da Amazônia. E o melhor de tudo: chegar ao Encontro das Águas é super simples, rápido e barato. Não acredita?",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11664/0ce27a77-5206-4d87-a578-89f7904ad94b",
+          "date": "20/07/2024"
+        },
+        {
+          "tags": [],
+          "title": "Parque Nacional de Anavilhanas",
+          "author": "Novo airão - AM",
+          "excerpt": "No Parque Nacional de Anavilhanas, o rio Negro apresenta um cenário singular que oferece inúmeras possibilidades de sensações, experiências e aprendizagem, em um labirinto de ilhas e águas negras espelhadas que se transforma com a variação do nível do rio, em um convite a desafiar nossos limites e ampliar nossa visão de mundo.",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11664/1365e208-545e-4b60-a3b9-4f8696bf488c",
+          "date": "20/07/2024"
+        },
+        {
+          "tags": [],
+          "title": "Teatro Amazonas",
+          "author": "Manaus-AM",
+          "excerpt": "O Teatro Amazonas é um dos mais importantes teatros do Brasil e o principal cartão-postal da cidade de Manaus. Localizado no Largo de São Sebastião, no Centro Histórico, foi inaugurado em 1896 para atender ao desejo da elite amazonense da época, que idealizava a cidade à altura dos grandes centros culturais.",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11664/93461c51-e586-4510-afec-8b030fd54f7e",
+          "date": "20/07/2024"
+        },
+        {
+          "tags": [],
+          "title": "Museu do Seringal",
+          "author": "Manaus-AM",
+          "excerpt": "O Museu do Seringal Vila Paraíso, localizado no Igarapé São João, na área rural de Manaus, foi inaugurado no dia 16 de agosto de 2002. O espaço reproduz um seringal do final do século 19 e início do século 20, época do ciclo da borracha e período de grande ascensão econômica do Amazonas.",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11664/27706fe6-323b-4639-82b3-86e10b39555a",
+          "date": "20/07/2024"
+        },
+        {
+          "tags": [],
+          "title": "Festival Folclórico de Parintins",
+          "author": "Parintins - AM",
+          "excerpt": "O Festival Folclórico de Parintins é uma festa popular brasileira criada em 1965 no município de Parintins, interior do estado do Amazonas. O festival é reconhecido como Patrimônio Cultural do Brasil pelo Instituto do Patrimônio Histórico e Artístico Nacional.",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11664/94476995-1417-4f86-85e7-422457a83299",
+          "date": "20/07/2024"
+        }
+      ]
+    },
+    {
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "site/sections/ImageWithParagraph.tsx",
+            "title": "Descubra a Amazônia Agora! ",
+            "description": "Não perca a chance de viver a experiência de uma vida na selva amazônica!\n\nOfertas Exclusivas: Aproveite nossos pacotes com descontos especiais por tempo limitado.\nReserva Fácil:  Garanta seu lugar em poucos cliques. Aventure-se na Amazônia sem complicações!\nExperiência Inesquecível: Conecte-se com a natureza e explore a cultura local de maneira única.",
+            "cta": [
+              {
+                "style": "Outline",
+                "href": "https://whatsa.me/5592984737304/?t=Ol%C3%A1%20gostaria%20de%20reservar%20uma%20aventura%20pelo%20amazonas!",
+                "text": "Reservar Agora!"
+              }
+            ],
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11664/2f0e2df3-03af-48a6-b4e1-52bbea3b225a"
+          },
+          "rule": {
+            "__resolveType": "website/matchers/always.ts"
+          }
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Faq.tsx",
+      "title": "Perguntas frequentes",
+      "description": "FAQ'S",
+      "cta": {
+        "href": "https://whatsa.me/5592984737304/?t=Ol%C3%A1%20gostaria%20de%20tirar%20uma%20duvida",
+        "text": "Perguntar"
       },
-      {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-      },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
-      }
-    ],
-    "__resolveType": "website/pages/Page.tsx",
-    "seo": {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
+      "questions": [
+        {
+          "answer": "<p>Os melhores meses para visitar o Amazonas são de junho a outubro, durante a estação seca. Nessa época, o clima é mais ameno e as trilhas na floresta estão mais acessíveis.</p>",
+          "title": " Quais são os melhores meses para visitar o Amazonas?"
+        },
+        {
+          "answer": "<p>Recomendamos levar roupas leves e de secagem rápida, calçados confortáveis para caminhadas, repelente de insetos, protetor solar, chapéu, óculos de sol, e uma garrafa de água reutilizável. Não se esqueça de sua câmera para capturar a beleza da Amazônia!</p>",
+          "title": "O que devo levar na minha viagem para o Amazonas?"
+        },
+        {
+          "answer": "<p>Sim, é seguro viajar para a Amazônia com nossa equipe experiente. Todos os nossos guias são treinados e conhecem bem a região. Seguimos rigorosos protocolos de segurança para garantir a proteção de nossos visitantes.</p>",
+          "title": "É seguro viajar para a Amazônia?"
+        },
+        {
+          "answer": "<p>Sim, oferecemos pacotes personalizados para atender às suas necessidades e interesses específicos. Entre em contato conosco para criar um roteiro exclusivo para sua viagem.</p>",
+          "title": "Vocês oferecem pacotes personalizados?"
+        },
+        {
+          "answer": "<p>Sim, organizamos visitas respeitosas e educativas a comunidades indígenas. Estas visitas são uma oportunidade para aprender sobre suas culturas e tradições, sempre respeitando seu modo de vida.</p>",
+          "title": "Posso visitar comunidades indígenas?"
+        },
+        {
+          "answer": "<p>Você pode reservar diretamente através do nosso site, na seção \"Reserve Agora\". Também estamos disponíveis para responder suas dúvidas por e-mail ou telefone</p>",
+          "title": "Como faço para reservar um pacote de turismo?"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "title": "Depoimentos",
+      "slides": [
+        {
+          "content": {
+            "description": "\"Minha viagem ao Amazonas foi simplesmente inesquecível! A organização dos passeios e a atenção aos detalhes fizeram toda a diferença. Recomendo a todos que desejam uma experiência autêntica e bem planejada na floresta amazônica.\"",
+            "name": "Gabriel dias",
+            "alt": "15/02/2022",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11664/8d639b15-bb71-4590-a0b7-2674f26663f8"
+          }
+        },
+        {
+          "content": {
+            "description": "\"A melhor parte da minha viagem foi conhecer as comunidades indígenas e aprender sobre sua cultura. A equipe foi extremamente atenciosa e conhecia cada detalhe da região. Voltarei com certeza!\"",
+            "name": "João Pereira",
+            "alt": "25/07/2021",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11664/e212e488-0aeb-430f-9df3-36f88fb026e3"
+          }
+        },
+        {
+          "content": {
+            "description": "\"Os cruzeiros pelo Rio Amazonas foram incríveis! A paisagem, a fauna e a flora são de tirar o fôlego. A empresa fez um trabalho maravilhoso em garantir que tivéssemos uma experiência confortável e memorável.\"",
+            "name": "Ana Souza",
+            "alt": "01/12/2022",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11664/f41ec1b1-6f52-42cb-a2b2-e464531b7e15"
+          }
+        },
+        {
+          "content": {
+            "description": "\"Eu e minha família tivemos uma aventura incrível na selva. Nossos guias eram extremamente conhecedores e nos fizeram sentir seguros o tempo todo. As crianças adoraram ver os animais e explorar a natureza.\"",
+            "alt": "16/05/2024",
+            "name": "Maria Lima",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11664/d40443bd-c370-4dc9-88cb-149dc0e0db60"
+          }
+        },
+        {
+          "content": {
+            "description": "\"A experiência de ecoturismo foi fantástica. Aprendemos muito sobre a conservação da floresta e vimos animais que nunca pensamos encontrar. A dedicação da equipe à sustentabilidade é inspiradora.\"",
+            "name": "Fernanda Oliveira",
+            "alt": "08/06/2019",
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11664/4b79ec89-f200-4d72-a691-9f272d05c392"
+          }
+        }
+      ],
+      "arrows": true,
+      "interval": 5
+    },
+    {
+      "__resolveType": "Footer"
     }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
+}
